@@ -1,14 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+    background-color: #c8edff;
 }
-button {
-    font-size: 18px;
-    padding: 10px 20px;
+
+.box {
+    width: 6vw;
+    height: 6vw;
+    background-color: rgb(26, 1, 255);
+    border-radius: 50%;
+    position: absolute;
     cursor: pointer;
+
 }
-p {
-    font-size: 20px;
-    margin-top: 10px;
+.forms {
+    position: absolute;
+    width: 20%;
+    cursor: grab;
 }
